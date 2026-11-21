@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"id":"n0","type":"manual","x":40,"y":50},
+    {"id":"n1","type":"secrets","x":270,"y":50},
+    {"id":"n2","type":"sca","x":500,"y":50},
+    {"id":"n3","type":"sast","x":730,"y":50}
+  ],
+  "edges": [
+    {"from":"n0","to":"n1","port":"next"},
+    {"from":"n1","to":"n2","port":"next"},
+    {"from":"n2","to":"n3","port":"next"}
+  ]
+}

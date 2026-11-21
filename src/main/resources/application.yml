@@ -1,0 +1,13 @@
+server:
+  address: 127.0.0.1
+  port: 8087
+spring:
+  datasource:
+    url: jdbc:h2:mem:training;DB_CLOSE_DELAY=-1
+    username: sa
+    password: "training-only-not-a-real-password"
+  sql:
+    init:
+      mode: always
+training:
+  api_key: "training-only-not-a-real-api-key"
